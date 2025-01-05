@@ -1,0 +1,24 @@
+{
+    "keys": [
+        {
+            "EL_key":  "_EL_KEY_FROM_ENV_",
+            "OAI_key": "_OAI_KEY_FROM_ENV_"
+        }
+    ],
+    "EL_data": [
+        {
+          "voice": "MF3mGyEYCl7XYWbV9V6O"
+        }
+    ],
+    "OAI_data": [
+        {
+          "model": "text-davinci-003",
+          "prompt": "_DEFAULT_OPEN_AI_PROMPT_FROM_ENV_",
+          "temperature": 0.9,
+            "max_tokens": 128,
+            "top_p": 1,
+            "frequency_penalty": 1,
+            "presence_penalty": 1
+        }
+    ]
+}
