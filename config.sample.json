@@ -7,12 +7,12 @@
     ],
     "EL_data": [
         {
-          "voice": "MF3mGyEYCl7XYWbV9V6O"
+          "voice": "Xb7hH8MSUJpSbSDYk0k2"
         }
     ],
     "OAI_data": [
         {
-          "model": "text-davinci-003",
+          "model": "gpt-3.5-turbo",
           "prompt": "_DEFAULT_OPEN_AI_PROMPT_FROM_ENV_",
           "temperature": 0.9,
             "max_tokens": 128,
