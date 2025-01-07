@@ -116,7 +116,7 @@ def llm(message):
     with llm_lock:
         print("Calling the LLM...")
         retries = 5
-        backoff_factor = 1  # Factor to increase wait time on each retry (in seconds)
+        backoff_factor = 20  # Factor to increase wait time on each retry (in seconds) - normally, it is 3 RPM, so having it wait 20 seconds per request will be 3x20=60sec
 
         for attempt in range(retries):
             try:

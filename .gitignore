@@ -174,13 +174,17 @@ cython_debug/
 
 # venv
 pyvenv.cfg
-bin
+bin/
+lib/
 lib
+lib64/
 lib64
-include
+include/
+share/
 
 # Others
 tags
 tags.*
 config.json
 *.bak
+
