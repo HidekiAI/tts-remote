@@ -1,3 +1,4 @@
+// TODO: Convert this to Rust or TypeScript, something more easier to read
 import os
 import sys
 import json
